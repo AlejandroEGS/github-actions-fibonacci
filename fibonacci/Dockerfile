@@ -12,4 +12,4 @@ RUN apt-get update
 RUN apt-get -y install python3
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
