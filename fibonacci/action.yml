@@ -1,0 +1,12 @@
+name: "fibonacci Action"
+description: "Mi primera evaluación de Github actions"
+author: "sagbinie@uninorte.edu.co"
+ 
+inputs:
+  N_INDEX:
+    description: "Numero N de fibonacci"
+    default: "1"
+ 
+runs:
+  using: "docker"
+  image: "Dockerfile"
