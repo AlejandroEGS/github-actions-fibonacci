@@ -9,3 +9,5 @@ def fibo(num):
 
     print('Secuencia: ', lista)
     print("El número es: ", fibo(num))
+
+num = int(input())
