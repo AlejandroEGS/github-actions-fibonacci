@@ -12,4 +12,4 @@ RUN apt-get -y install python-dev
 RUN cd /fibonacci
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["../entrypoint.sh"]
