@@ -2,8 +2,8 @@
 FROM debian:9.5-slim 
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
-COPY entrypoint.sh /entrypoint.sh
-COPY fibonacci.py /fibonacci.py
+ADD entrypoint.sh /entrypoint.sh
+ADD fibonacci.py /fibonacci.py
 
 # Set execution permissions
 RUN chmod +x /entrypoint.sh
