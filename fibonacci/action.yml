@@ -5,7 +5,12 @@ author: "sagbinie@uninorte.edu.co"
 inputs:
   N_INDEX:
     description: "Numero N de fibonacci"
+    required: true
     default: "1"
+
+outputs:
+  fnumber:
+    description: 'Numero N en la sucesión de fibonacci'
  
 runs:
   using: "docker"
