@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python fibonacci/fibonacci.py INPUT_N_INDEX
+python fibonacci/fibonacci.py $INPUT_N_INDEX
